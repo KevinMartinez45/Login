@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('img/forest-g81f7e8e68_1280.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+ .login{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    backdrop-filter: blur(3px); 
+   
+ }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .Wrong{
+    display: none;
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: rgba(240, 119, 119, 0.884);   
+  }
+  
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 15px 15px 15px 50px;
+    margin-bottom: 10px;
+    border: hsla(hue, saturation, lightness, alpha);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+
+  .in-group{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: hsla(hue, saturation, lightness, alpha);
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+    margin: auto;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
+
+  .fa-user, .fa-lock{
+    font-size: 25px;
+    color: #252525;
+    position: absolute;
+    left: 10px;
+  }
+  .fa-right-from-bracket{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 175vh;
+    
+  }
+
+  .Wrong.show{
+    display: block;
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: rgba(240, 119, 119, 0.884); 
+  }
+
+
+  
+  
+  .texto-fondo{
+    
+    font-size: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    background-image: url(img/forest-g81f7e8e68_1280.jpg) ;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position-y: center;
+    -webkit-background-clip: text;
+    color: transparent;
+
+  }
