@@ -9,7 +9,7 @@ function verificar(){
         alert("Bienvenido");
         document.getElementById('pass').value = "";
         document.getElementById('user').value = "";
-        location.href = ('../forms/inicio.html');
+        location.href = ('forms/inicio.html');
 
     }else{
         
